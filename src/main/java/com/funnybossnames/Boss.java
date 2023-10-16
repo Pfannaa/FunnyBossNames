@@ -13,7 +13,7 @@ enum Boss
     CRAZY_ARCHAEOLOGIST("Crazy Archaeologist", "Nutty Nerd"),
     KING_BLACK_DRAGON("King Black Dragon", "Bling Bling Dragon King"),
     SCORPIA("Scorpia", "Scorpia"),
-    VENENATIS("Venenatis", "Venenatis, the Spider with a Sense of Slapstick"),
+    VENENATIS("Venenatis", "Venenatis"),
     SPINDEL("Spindel", "The Webbed Wacko"),
     VETION("Vet'ion", "The Neanderthal Nerd"),
     CALVARION("Calvar'ion", "The Prehistoric Prankster"),
