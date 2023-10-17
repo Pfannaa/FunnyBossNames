@@ -43,7 +43,7 @@ enum Boss
     TOMBS_OF_AMASCUT("Tombs of Amascut", "Tombs of Amascut"),
     ABYSSAL_SIRE("Abyssal Sire", "Mike"),
     BARROWS_CHESTS("Barrows Chests", "Barrows Chests"),
-    BARROWS_CHESTS("Barrows Chest", "Barrows Chest"),
+    BARROWS_CHEST("Barrows Chest", "Barrows Chest"),
     BRYOPHYTA("Bryophyta", "Firefighter"),
     DAGGANOTH_KINGS("Dagannoth Kings", "Dagannoth Twinks"),
     TZTOK_JAD("TzTok-Jad", "TzTok-FatKok"),
