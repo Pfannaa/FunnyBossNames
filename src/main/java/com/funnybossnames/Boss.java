@@ -86,7 +86,8 @@ enum Boss
     ZEBAK("Zebak", "Croc'O"),
     BABA("Ba-Ba", "Harambe"),
     TUMEKENS_WARDEN("Tumeken's Warden", "Tumeken's Simp"),
-    ELIDINIS_WARDEN("Elidinis' Warden", "Eilidinis' Simp")
+    ELIDINIS_WARDEN("Elidinis' Warden", "Eilidinis' Simp"),
+    SCURRIUS("Scurrius", "Ratatouille")
     ;
 
 
