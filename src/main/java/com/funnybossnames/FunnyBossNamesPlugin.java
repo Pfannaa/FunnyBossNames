@@ -57,12 +57,12 @@ public class FunnyBossNamesPlugin extends Plugin
 			//	colLogName.setText(colLogName.getText().replace(colLogName.getText(),boss.getNewName()));
 			//}
 
-			if(colLogNameBig != null && colLogNameBig.getChild(0) != null
-					&& colLogNameBig.getChild(0).getText().contains(boss.getBossName()))
-			{
-				colLogNameBig = colLogNameBig.getChild(0);
-				colLogNameBig.setText(colLogNameBig.getText().replace(colLogNameBig.getText(),boss.getNewName()));
-			}
+			//if(colLogNameBig != null && colLogNameBig.getChild(0) != null
+			//		&& colLogNameBig.getChild(0).getText().contains(boss.getBossName()))
+			//{
+			//	colLogNameBig = colLogNameBig.getChild(0);
+			//	colLogNameBig.setText(colLogNameBig.getText().replace(colLogNameBig.getText(),boss.getNewName()));
+			//}
 
 			// Commented out due to not working consistently
 			//if(colLogNameSmall != null && colLogNameSmall.getChild(2) != null
