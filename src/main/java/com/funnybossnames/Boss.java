@@ -77,7 +77,7 @@ enum Boss
     TEKTON("Tekton", "Crackton"),
     VANGUARD("Vanguard", "Shrimp"),
     VASA_NISTIRIO("Vasa Nistirio", "Ali C Lopez"),
-    VESPULA("Vespula", "Nectar nut"),
+    VESPULA("Vespula", "Nectar nutter"),
     OLM("Great Olm", "Big O'"),
     OLMS_LEFT_HAND("Great Olm - Left hand", "Big O's left hand"),
     OLMS_RIGHT_HAND("Great Olm - Right hand", "Big O's right hand"),
@@ -89,7 +89,8 @@ enum Boss
     ELIDINIS_WARDEN("Elidinis' Warden", "Eilidinis' Simp"),
     SCURRIUS("Scurrius", "Ratatouille"),
     SOL_HEREDIT("Sol Heredit", "Shmol Wheredidit"),
-    ARAXXOR("Araxxor", "Roxxanne")
+    ARAXXOR("Araxxor", "Roxxanne"),
+    YAMA("Yama", "Momma")
     ;
 
 
