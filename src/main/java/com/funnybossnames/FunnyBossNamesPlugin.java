@@ -60,188 +60,187 @@ public class FunnyBossNamesPlugin extends Plugin {
             return bossName;
         }
 
-        switch (bossName) {
-            case "General Graardor":
-                return _config.enableGeneralGraardor() ? _config.generalGraardor() : bossName;
-            case "K'ril Tsutsaroth":
-                return _config.enableKrilTsutsaroth() ? _config.krilTsutsaroth() : bossName;
-            case "Kree'arra":
-                return _config.enableKreearra() ? _config.kreearra() : bossName;
-            case "Commander Zilyana":
-                return _config.enableCommanderZilyana() ? _config.commanderZilyana() : bossName;
-            case "Callisto":
-                return _config.enableCallisto() ? _config.callisto() : bossName;
-            case "Artio":
-                return _config.enableArtio() ? _config.artio() : bossName;
-            case "Chaos Elemental":
-                return _config.enableChaosElemental() ? _config.chaosElemental() : bossName;
-            case "Chaos Fanatic":
-                return _config.enableChaosFanatic() ? _config.chaosFanatic() : bossName;
-            case "Crazy Archaeologist":
-                return _config.enableCrazyArchaeologist() ? _config.crazyArchaeologist() : bossName;
-            case "King Black Dragon":
-                return _config.enableKingBlackDragon() ? _config.kingBlackDragon() : bossName;
-            case "Scorpia":
-                return _config.enableScorpia() ? _config.scorpia() : bossName;
-            case "Venenatis":
-                return _config.enableVenenatis() ? _config.venenatis() : bossName;
-            case "Spindel":
-                return _config.enableSpindel() ? _config.spindel() : bossName;
-            case "Vet'ion":
-                return _config.enableVetion() ? _config.vetion() : bossName;
-            case "Calvar'ion":
-                return _config.enableCalvarion() ? _config.calvarion() : bossName;
-            case "Dagannoth Prime":
-                return _config.enableDagannothPrime() ? _config.dagannothPrime() : bossName;
-            case "Dagannoth Rex":
-                return _config.enableDagannothRex() ? _config.dagannothRex() : bossName;
-            case "Dagannoth Supreme":
-                return _config.enableDagannothSupreme() ? _config.dagannothSupreme() : bossName;
-            case "Corporeal Beast":
-                return _config.enableCorporealBeast() ? _config.corporealBeast() : bossName;
-            case "Giant Mole":
-                return _config.enableGiantMole() ? _config.giantMole() : bossName;
-            case "Deranged Archaeologist":
-                return _config.enableDerangedArchaeologist() ? _config.derangedArchaeologist() : bossName;
-            case "Cerberus":
-                return _config.enableCerberus() ? _config.cerberus() : bossName;
-            case "Thermonuclear Smoke Devil":
-                return _config.enableThermonuclearSmokeDevil() ? _config.thermonuclearSmokeDevil() : bossName;
-            case "Kraken":
-                return _config.enableKraken() ? _config.kraken() : bossName;
-            case "Kalphite Queen":
-                return _config.enableKalphiteQueen() ? _config.kalphiteQueen() : bossName;
-            case "Dusk":
-                return _config.enableDusk() ? _config.dusk() : bossName;
-            case "Dawn":
-                return _config.enableDawn() ? _config.dawn() : bossName;
-            case "Alchemical Hydra":
-                return _config.enableAlchemicalHydra() ? _config.alchemicalHydra() : bossName;
-            case "Sarachnis":
-                return _config.enableSarachnis() ? _config.sarachnis() : bossName;
-            case "Zalcano":
-                return _config.enableZalcano() ? _config.zalcano() : bossName;
-            case "Phantom Muspah":
-                return _config.enablePhantomMuspah() ? _config.phantomMuspah() : bossName;
-            case "The Leviathan":
-                return _config.enableTheLeviathan() ? _config.theLeviathan() : bossName;
-            case "Vardorvis":
-                return _config.enableVardorvis() ? _config.vardorvis() : bossName;
-            case "Duke Sucellus":
-                return _config.enableDukeSuccellus() ? _config.dukeSuccellus() : bossName;
-            case "The Whisperer":
-                return _config.enableTheWhisperer() ? _config.theWhisperer() : bossName;
-            case "Whisperer":
-                return _config.enableWhisperer() ? _config.whisperer() : bossName;
-            case "Chambers of Xeric":
-                return _config.enableChambersOfXeric() ? _config.chambersOfXeric() : bossName;
-            case "Theatre of Blood":
-                return _config.enableTheatreOfBlood() ? _config.theatreOfBlood() : bossName;
-            case "Tombs of Amascut":
-                return _config.enableTombsOfAmascut() ? _config.tombsOfAmascut() : bossName;
-            case "Abyssal Sire":
-                return _config.enableAbyssalSire() ? _config.abyssalSire() : bossName;
-            case "Barrows Chests":
-                return _config.enableBarrowsChests() ? _config.barrowsChests() : bossName;
-            case "Barrows Chest":
-                return _config.enableBarrowsChest() ? _config.barrowsChest() : bossName;
-            case "Bryophyta":
-                return _config.enableBryophyta() ? _config.bryophyta() : bossName;
-            case "Dagannoth Kings":
-                return _config.enableDagganotheKings() ? _config.dagganotheKings() : bossName;
-            case "TzTok-Jad":
-                return _config.enableTztokJad() ? _config.tztokJad() : bossName;
-            case "The Gauntlet":
-                return _config.enableTheGauntlet() ? _config.theGauntlet() : bossName;
-            case "Crystalline Hunleff":
-                return _config.enableCrystallineHunleff() ? _config.crystallineHunleff() : bossName;
-            case "Corrupted Hunleff":
-                return _config.enableCorruptedHunleff() ? _config.corruptedHunleff() : bossName;
-            case "Grotesque Guardians":
-                return _config.enableGrotesqueGuardians() ? _config.grotesqueGuardians() : bossName;
-            case "Hespori":
-                return _config.enableHespori() ? _config.hespori() : bossName;
-            case "The Inferno":
-                return _config.enableTheInferno() ? _config.theInferno() : bossName;
-            case "Nex":
-                return _config.enableNex() ? _config.nex() : bossName;
-            case "The Nightmare":
-                return _config.enableTheNightmare() ? _config.theNightmare() : bossName;
-            case "Phosani's Nightmare":
-                return _config.enablePhosanisNightmare() ? _config.phosanisNightmare() : bossName;
-            case "Obor":
-                return _config.enableObor() ? _config.obor() : bossName;
-            case "Skotizo":
-                return _config.enableSkotizo() ? _config.skotizo() : bossName;
-            case "Tempoross":
-                return _config.enableTempoross() ? _config.tempoross() : bossName;
-            case "Wintertodt":
-                return _config.enableWintertodt() ? _config.wintertodt() : bossName;
-            case "Zulrah":
-                return _config.enableZulrah() ? _config.zulrah() : bossName;
-            case "The Fight Caves":
-                return _config.enableTheFightCaves() ? _config.theFightCaves() : bossName;
-            case "Vorkath":
-                return _config.enableVorkath() ? _config.vorkath() : bossName;
-            case "Gauntlet":
-                return _config.enableGauntlet() ? _config.gauntlet() : bossName;
-            case "Corrupted Gauntlet":
-                return _config.enableCorruptedGauntlet() ? _config.corruptedGauntlet() : bossName;
-            case "The Maiden of Sugadinti":
-                return _config.enableTheMaidenOfSugadinti() ? _config.theMaidenOfSugadinti() : bossName;
-            case "Pestilent Bloat":
-                return _config.enablePestilentBloat() ? _config.pestilentBloat() : bossName;
-            case "Sotetseg":
-                return _config.enableSotetseg() ? _config.sotetseg() : bossName;
-            case "Xarpus":
-                return _config.enableXarpus() ? _config.xarpus() : bossName;
-            case "Verzik Vitur":
-                return _config.enableVerzikVitur() ? _config.verzikVitur() : bossName;
-            case "Ice Demon":
-                return _config.enableIceDemon() ? _config.iceDemon() : bossName;
-            case "Lizardman Shaman":
-                return _config.enableLizardmanShamans() ? _config.lizardmanShamans() : bossName;
-            case "Muttadile":
-                return _config.enableMuttadiles() ? _config.muttadiles() : bossName;
-            case "Skeletal Mystic":
-                return _config.enableSkeletalMystic() ? _config.skeletalMystic() : bossName;
-            case "Tekton":
-                return _config.enableTekton() ? _config.tekton() : bossName;
-            case "Vanguard":
-                return _config.enableVanguard() ? _config.vanguard() : bossName;
-            case "Vasa Nistirio":
-                return _config.enableVasaNistirio() ? _config.vasaNistirio() : bossName;
-            case "Vespula":
-                return _config.enableVespula() ? _config.vespula() : bossName;
-            case "Great Olm":
-                return _config.enableOlm() ? _config.olm() : bossName;
-            case "Great Olm - Left hand":
-                return _config.enableOlmsLeftHand() ? _config.olmsLeftHand() : bossName;
-            case "Great Olm - Right hand":
-                return _config.enableOlmsRightHand() ? _config.olmsRightHand() : bossName;
-            case "Kephri":
-                return _config.enableKephri() ? _config.kephri() : bossName;
-            case "Akkha":
-                return _config.enableAkkha() ? _config.akkha() : bossName;
-            case "Zebak":
-                return _config.enableZebak() ? _config.zebak() : bossName;
-            case "Ba-Ba":
-                return _config.enableBaba() ? _config.baba() : bossName;
-            case "Tumeken's Warden":
-                return _config.enableTumekensWarden() ? _config.tumekensWarden() : bossName;
-            case "Elidinis' Warden":
-                return _config.enableElidinisWarden() ? _config.elidinisWarden() : bossName;
-            case "Scurrius":
-                return _config.enableScurrius() ? _config.scurrius() : bossName;
-            case "Sol Heredit":
-                return _config.enableSolHeredit() ? _config.solHeredit() : bossName;
-            case "Araxxor":
-                return _config.enableAraxxor() ? _config.araxxor() : bossName;
-            case "Yama":
-                return _config.enableYama() ? _config.yama() : bossName;
-            default:
-                return bossName;
+        // Refactor this at some point, this is wild
+        if (bossName.contains("General Graardor")) {
+            return _config.enableGeneralGraardor() ? bossName.replace("General Graardor", _config.generalGraardor()) : bossName;
+        } else if (bossName.contains("K'ril Tsutsaroth")) {
+            return _config.enableKrilTsutsaroth() ? bossName.replace("K'ril Tsutsaroth", _config.krilTsutsaroth()) : bossName;
+        } else if (bossName.contains("Kree'arra")) {
+            return _config.enableKreearra() ? bossName.replace("Kree'arra", _config.kreearra()) : bossName;
+        } else if (bossName.contains("Commander Zilyana")) {
+            return _config.enableCommanderZilyana() ? bossName.replace("Commander Zilyana", _config.commanderZilyana()) : bossName;
+        } else if (bossName.contains("Callisto")) {
+            return _config.enableCallisto() ? bossName.replace("Callisto", _config.callisto()) : bossName;
+        } else if (bossName.contains("Artio")) {
+            return _config.enableArtio() ? bossName.replace("Artio", _config.artio()) : bossName;
+        } else if (bossName.contains("Chaos Elemental")) {
+            return _config.enableChaosElemental() ? bossName.replace("Chaos Elemental", _config.chaosElemental()) : bossName;
+        } else if (bossName.contains("Chaos Fanatic")) {
+            return _config.enableChaosFanatic() ? bossName.replace("Chaos Fanatic", _config.chaosFanatic()) : bossName;
+        } else if (bossName.contains("Crazy Archaeologist")) {
+            return _config.enableCrazyArchaeologist() ? bossName.replace("Crazy Archaeologist", _config.crazyArchaeologist()) : bossName;
+        } else if (bossName.contains("King Black Dragon")) {
+            return _config.enableKingBlackDragon() ? bossName.replace("King Black Dragon", _config.kingBlackDragon()) : bossName;
+        } else if (bossName.contains("Scorpia")) {
+            return _config.enableScorpia() ? bossName.replace("Scorpia", _config.scorpia()) : bossName;
+        } else if (bossName.contains("Venenatis")) {
+            return _config.enableVenenatis() ? bossName.replace("Venenatis", _config.venenatis()) : bossName;
+        } else if (bossName.contains("Spindel")) {
+            return _config.enableSpindel() ? bossName.replace("Spindel", _config.spindel()) : bossName;
+        } else if (bossName.contains("Vet'ion")) {
+            return _config.enableVetion() ? bossName.replace("Vet'ion", _config.vetion()) : bossName;
+        } else if (bossName.contains("Calvar'ion")) {
+            return _config.enableCalvarion() ? bossName.replace("Calvar'ion", _config.calvarion()) : bossName;
+        } else if (bossName.contains("Dagannoth Prime")) {
+            return _config.enableDagannothPrime() ? bossName.replace("Dagannoth Prime", _config.dagannothPrime()) : bossName;
+        } else if (bossName.contains("Dagannoth Rex")) {
+            return _config.enableDagannothRex() ? bossName.replace("Dagannoth Rex", _config.dagannothRex()) : bossName;
+        } else if (bossName.contains("Dagannoth Supreme")) {
+            return _config.enableDagannothSupreme() ? bossName.replace("Dagannoth Supreme", _config.dagannothSupreme()) : bossName;
+        } else if (bossName.contains("Corporeal Beast")) {
+            return _config.enableCorporealBeast() ? bossName.replace("Corporeal Beast", _config.corporealBeast()) : bossName;
+        } else if (bossName.contains("Giant Mole")) {
+            return _config.enableGiantMole() ? bossName.replace("Giant Mole", _config.giantMole()) : bossName;
+        } else if (bossName.contains("Deranged Archaeologist")) {
+            return _config.enableDerangedArchaeologist() ? bossName.replace("Deranged Archaeologist", _config.derangedArchaeologist()) : bossName;
+        } else if (bossName.contains("Cerberus")) {
+            return _config.enableCerberus() ? bossName.replace("Cerberus", _config.cerberus()) : bossName;
+        } else if (bossName.contains("Thermonuclear Smoke Devil")) {
+            return _config.enableThermonuclearSmokeDevil() ? bossName.replace("Thermonuclear Smoke Devil", _config.thermonuclearSmokeDevil()) : bossName;
+        } else if (bossName.contains("Kraken")) {
+            return _config.enableKraken() ? bossName.replace("Kraken", _config.kraken()) : bossName;
+        } else if (bossName.contains("Kalphite Queen")) {
+            return _config.enableKalphiteQueen() ? bossName.replace("Kalphite Queen", _config.kalphiteQueen()) : bossName;
+        } else if (bossName.contains("Dusk")) {
+            return _config.enableDusk() ? bossName.replace("Dusk", _config.dusk()) : bossName;
+        } else if (bossName.contains("Dawn")) {
+            return _config.enableDawn() ? bossName.replace("Dawn", _config.dawn()) : bossName;
+        } else if (bossName.contains("Alchemical Hydra")) {
+            return _config.enableAlchemicalHydra() ? bossName.replace("Alchemical Hydra", _config.alchemicalHydra()) : bossName;
+        } else if (bossName.contains("Sarachnis")) {
+            return _config.enableSarachnis() ? bossName.replace("Sarachnis", _config.sarachnis()) : bossName;
+        } else if (bossName.contains("Zalcano")) {
+            return _config.enableZalcano() ? bossName.replace("Zalcano", _config.zalcano()) : bossName;
+        } else if (bossName.contains("Phantom Muspah")) {
+            return _config.enablePhantomMuspah() ? bossName.replace("Phantom Muspah", _config.phantomMuspah()) : bossName;
+        } else if (bossName.contains("The Leviathan")) {
+            return _config.enableTheLeviathan() ? bossName.replace("The Leviathan", _config.theLeviathan()) : bossName;
+        } else if (bossName.contains("Vardorvis")) {
+            return _config.enableVardorvis() ? bossName.replace("Vardorvis", _config.vardorvis()) : bossName;
+        } else if (bossName.contains("Duke Sucellus")) {
+            return _config.enableDukeSuccellus() ? bossName.replace("Duke Sucellus", _config.dukeSuccellus()) : bossName;
+        } else if (bossName.contains("The Whisperer")) {
+            return _config.enableTheWhisperer() ? bossName.replace("The Whisperer", _config.theWhisperer()) : bossName;
+        } else if (bossName.contains("Whisperer")) {
+            return _config.enableWhisperer() ? bossName.replace("Whisperer", _config.whisperer()) : bossName;
+        } else if (bossName.contains("Chambers of Xeric")) {
+            return _config.enableChambersOfXeric() ? bossName.replace("Chambers of Xeric", _config.chambersOfXeric()) : bossName;
+        } else if (bossName.contains("Theatre of Blood")) {
+            return _config.enableTheatreOfBlood() ? bossName.replace("Theatre of Blood", _config.theatreOfBlood()) : bossName;
+        } else if (bossName.contains("Tombs of Amascut")) {
+            return _config.enableTombsOfAmascut() ? bossName.replace("Tombs of Amascut", _config.tombsOfAmascut()) : bossName;
+        } else if (bossName.contains("Abyssal Sire")) {
+            return _config.enableAbyssalSire() ? bossName.replace("Abyssal Sire", _config.abyssalSire()) : bossName;
+        } else if (bossName.contains("Barrows Chests")) {
+            return _config.enableBarrowsChests() ? bossName.replace("Barrows Chests", _config.barrowsChests()) : bossName;
+        } else if (bossName.contains("Barrows Chest")) {
+            return _config.enableBarrowsChest() ? bossName.replace("Barrows Chest", _config.barrowsChest()) : bossName;
+        } else if (bossName.contains("Bryophyta")) {
+            return _config.enableBryophyta() ? bossName.replace("Bryophyta", _config.bryophyta()) : bossName;
+        } else if (bossName.contains("Dagannoth Kings")) {
+            return _config.enableDagganotheKings() ? bossName.replace("Dagannoth Kings", _config.dagganotheKings()) : bossName;
+        } else if (bossName.contains("TzTok-Jad")) {
+            return _config.enableTztokJad() ? bossName.replace("TzTok-Jad", _config.tztokJad()) : bossName;
+        } else if (bossName.contains("The Gauntlet")) {
+            return _config.enableTheGauntlet() ? bossName.replace("The Gauntlet", _config.theGauntlet()) : bossName;
+        } else if (bossName.contains("Crystalline Hunleff")) {
+            return _config.enableCrystallineHunleff() ? bossName.replace("Crystalline Hunleff", _config.crystallineHunleff()) : bossName;
+        } else if (bossName.contains("Corrupted Hunleff")) {
+            return _config.enableCorruptedHunleff() ? bossName.replace("Corrupted Hunleff", _config.corruptedHunleff()) : bossName;
+        } else if (bossName.contains("Grotesque Guardians")) {
+            return _config.enableGrotesqueGuardians() ? bossName.replace("Grotesque Guardians", _config.grotesqueGuardians()) : bossName;
+        } else if (bossName.contains("Hespori")) {
+            return _config.enableHespori() ? bossName.replace("Hespori", _config.hespori()) : bossName;
+        } else if (bossName.contains("The Inferno")) {
+            return _config.enableTheInferno() ? bossName.replace("The Inferno", _config.theInferno()) : bossName;
+        } else if (bossName.contains("Nex")) {
+            return _config.enableNex() ? bossName.replace("Nex", _config.nex()) : bossName;
+        } else if (bossName.contains("The Nightmare")) {
+            return _config.enableTheNightmare() ? bossName.replace("The Nightmare", _config.theNightmare()) : bossName;
+        } else if (bossName.contains("Phosani's Nightmare")) {
+            return _config.enablePhosanisNightmare() ? bossName.replace("Phosani's Nightmare", _config.phosanisNightmare()) : bossName;
+        } else if (bossName.contains("Obor")) {
+            return _config.enableObor() ? bossName.replace("Obor", _config.obor()) : bossName;
+        } else if (bossName.contains("Skotizo")) {
+            return _config.enableSkotizo() ? bossName.replace("Skotizo", _config.skotizo()) : bossName;
+        } else if (bossName.contains("Tempoross")) {
+            return _config.enableTempoross() ? bossName.replace("Tempoross", _config.tempoross()) : bossName;
+        } else if (bossName.contains("Wintertodt")) {
+            return _config.enableWintertodt() ? bossName.replace("Wintertodt", _config.wintertodt()) : bossName;
+        } else if (bossName.contains("Zulrah")) {
+            return _config.enableZulrah() ? bossName.replace("Zulrah", _config.zulrah()) : bossName;
+        } else if (bossName.contains("The Fight Caves")) {
+            return _config.enableTheFightCaves() ? bossName.replace("The Fight Caves", _config.theFightCaves()) : bossName;
+        } else if (bossName.contains("Vorkath")) {
+            return _config.enableVorkath() ? bossName.replace("Vorkath", _config.vorkath()) : bossName;
+        } else if (bossName.contains("Gauntlet")) {
+            return _config.enableGauntlet() ? bossName.replace("Gauntlet", _config.gauntlet()) : bossName;
+        } else if (bossName.contains("Corrupted Gauntlet")) {
+            return _config.enableCorruptedGauntlet() ? bossName.replace("Corrupted Gauntlet", _config.corruptedGauntlet()) : bossName;
+        } else if (bossName.contains("The Maiden of Sugadinti")) {
+            return _config.enableTheMaidenOfSugadinti() ? bossName.replace("The Maiden of Sugadinti", _config.theMaidenOfSugadinti()) : bossName;
+        } else if (bossName.contains("Pestilent Bloat")) {
+            return _config.enablePestilentBloat() ? bossName.replace("Pestilent Bloat", _config.pestilentBloat()) : bossName;
+        } else if (bossName.contains("Sotetseg")) {
+            return _config.enableSotetseg() ? bossName.replace("Sotetseg", _config.sotetseg()) : bossName;
+        } else if (bossName.contains("Xarpus")) {
+            return _config.enableXarpus() ? bossName.replace("Xarpus", _config.xarpus()) : bossName;
+        } else if (bossName.contains("Verzik Vitur")) {
+            return _config.enableVerzikVitur() ? bossName.replace("Verzik Vitur", _config.verzikVitur()) : bossName;
+        } else if (bossName.contains("Ice Demon")) {
+            return _config.enableIceDemon() ? bossName.replace("Ice Demon", _config.iceDemon()) : bossName;
+        } else if (bossName.contains("Lizardman Shaman")) {
+            return _config.enableLizardmanShamans() ? bossName.replace("Lizardman Shaman", _config.lizardmanShamans()) : bossName;
+        } else if (bossName.contains("Muttadile")) {
+            return _config.enableMuttadiles() ? bossName.replace("Muttadile", _config.muttadiles()) : bossName;
+        } else if (bossName.contains("Skeletal Mystic")) {
+            return _config.enableSkeletalMystic() ? bossName.replace("Skeletal Mystic", _config.skeletalMystic()) : bossName;
+        } else if (bossName.contains("Tekton")) {
+            return _config.enableTekton() ? bossName.replace("Tekton", _config.tekton()) : bossName;
+        } else if (bossName.contains("Vanguard")) {
+            return _config.enableVanguard() ? bossName.replace("Vanguard", _config.vanguard()) : bossName;
+        } else if (bossName.contains("Vasa Nistirio")) {
+            return _config.enableVasaNistirio() ? bossName.replace("Vasa Nistirio", _config.vasaNistirio()) : bossName;
+        } else if (bossName.contains("Vespula")) {
+            return _config.enableVespula() ? bossName.replace("Vespula", _config.vespula()) : bossName;
+        } else if (bossName.contains("Great Olm")) {
+            return _config.enableOlm() ? bossName.replace("Great Olm", _config.olm()) : bossName;
+        } else if (bossName.contains("Great Olm - Left hand")) {
+            return _config.enableOlmsLeftHand() ? bossName.replace("Great Olm - Left hand", _config.olmsLeftHand()) : bossName;
+        } else if (bossName.contains("Great Olm - Right hand")) {
+            return _config.enableOlmsRightHand() ? bossName.replace("Great Olm - Right hand", _config.olmsRightHand()) : bossName;
+        } else if (bossName.contains("Kephri")) {
+            return _config.enableKephri() ? bossName.replace("Kephri", _config.kephri()) : bossName;
+        } else if (bossName.contains("Akkha")) {
+            return _config.enableAkkha() ? bossName.replace("Akkha", _config.akkha()) : bossName;
+        } else if (bossName.contains("Zebak")) {
+            return _config.enableZebak() ? bossName.replace("Zebak", _config.zebak()) : bossName;
+        } else if (bossName.contains("Ba-Ba")) {
+            return _config.enableBaba() ? bossName.replace("Ba-Ba", _config.baba()) : bossName;
+        } else if (bossName.contains("Tumeken's Warden")) {
+            return _config.enableTumekensWarden() ? bossName.replace("Tumeken's Warden", _config.tumekensWarden()) : bossName;
+        } else if (bossName.contains("Elidinis' Warden")) {
+            return _config.enableElidinisWarden() ? bossName.replace("Elidinis' Warden", _config.elidinisWarden()) : bossName;
+        } else if (bossName.contains("Scurrius")) {
+            return _config.enableScurrius() ? bossName.replace("Scurrius", _config.scurrius()) : bossName;
+        } else if (bossName.contains("Sol Heredit")) {
+            return _config.enableSolHeredit() ? bossName.replace("Sol Heredit", _config.solHeredit()) : bossName;
+        } else if (bossName.contains("Araxxor")) {
+            return _config.enableAraxxor() ? bossName.replace("Araxxor", _config.araxxor()) : bossName;
+        } else if (bossName.contains("Yama")) {
+            return _config.enableYama() ? bossName.replace("Yama", _config.yama()) : bossName;
         }
+        return bossName;
     }
 
     @Subscribe
