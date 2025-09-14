@@ -154,9 +154,9 @@ public class FunnyBossNamesPlugin extends Plugin {
         } else if (bossName.contains("The Gauntlet")) {
             return _config.enableTheGauntlet() ? bossName.replace("The Gauntlet", _config.theGauntlet()) : bossName;
         } else if (bossName.contains("Crystalline Hunllef")) {
-            return _config.enableCrystallineHunleff() ? bossName.replace("Crystalline Hunllef", _config.crystallineHunllef()) : bossName;
+            return _config.enableCrystallineHunllef() ? bossName.replace("Crystalline Hunllef", _config.crystallineHunllef()) : bossName;
         } else if (bossName.contains("Corrupted Hunllef")) {
-            return _config.enableCorruptedHunleff() ? bossName.replace("Corrupted Hunllef", _config.corruptedHunllef()) : bossName;
+            return _config.enableCorruptedHunllef() ? bossName.replace("Corrupted Hunllef", _config.corruptedHunllef()) : bossName;
         } else if (bossName.contains("Grotesque Guardians")) {
             return _config.enableGrotesqueGuardians() ? bossName.replace("Grotesque Guardians", _config.grotesqueGuardians()) : bossName;
         } else if (bossName.contains("Hespori")) {
