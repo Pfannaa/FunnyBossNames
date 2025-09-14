@@ -2047,4 +2047,26 @@ public interface FunnyBossNamesConfig extends Config {
     default String yama() {
         return "Momma";
     }
+
+    @ConfigItem(
+            keyName = "enableYama",
+            name = "Enable Yama",
+            description = "Enable nickname for Yama",
+            section = otherBosses,
+            position = 312
+    )
+    default boolean enableMokha() {
+        return true;
+    }
+
+    @ConfigItem(
+            keyName = "mokha",
+            name = "Mokha Nickname",
+            description = "Custom nickname for Mokha",
+            section = otherBosses,
+            position = 313
+    )
+    default String mokha() {
+        return "Doom of Mock-ay-what-now?";
+    }
 }

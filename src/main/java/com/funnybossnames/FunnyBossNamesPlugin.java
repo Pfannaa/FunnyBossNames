@@ -240,6 +240,10 @@ public class FunnyBossNamesPlugin extends Plugin {
         } else if (bossName.contains("Yama")) {
             return _config.enableYama() ? bossName.replace("Yama", _config.yama()) : bossName;
         }
+        else if (bossName.contains("Doom of Mokhaiotl")) {
+            return _config.enableMokha() ? bossName.replace("Doom of Mokhaiotl", _config.mokha()) : bossName;
+        }
+
         return bossName;
     }
 
