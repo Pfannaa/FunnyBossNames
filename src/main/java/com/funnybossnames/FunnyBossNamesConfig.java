@@ -1609,46 +1609,46 @@ public interface FunnyBossNamesConfig extends Config {
     }
 
     @ConfigItem(
-            keyName = "enableCrystallineHunleff",
-            name = "Enable Crystalline Hunleff",
-            description = "Enable nickname for Crystalline Hunleff",
+            keyName = "enableCrystallineHunllef",
+            name = "Enable Crystalline Hunllef",
+            description = "Enable nickname for Crystalline Hunllef",
             section = otherBosses,
             position = 120
     )
-    default boolean enableCrystallineHunleff() {
+    default boolean enableCrystallineHunllef() {
         return true;
     }
 
     @ConfigItem(
-            keyName = "crystallineHunleff",
-            name = "Crystalline Hunleff Nickname",
-            description = "Custom nickname for Crystalline Hunleff",
+            keyName = "crystallineHunllef",
+            name = "Crystalline Hunllef Nickname",
+            description = "Custom nickname for Crystalline Hunllef",
             section = otherBosses,
             position = 121
     )
-    default String crystallineHunleff() {
+    default String crystallineHunllef() {
         return "Transparent Dog";
     }
 
     @ConfigItem(
-            keyName = "enableCorruptedHunleff",
-            name = "Enable Corrupted Hunleff",
-            description = "Enable nickname for Corrupted Hunleff",
+            keyName = "enableCorruptedHunllef",
+            name = "Enable Corrupted Hunllef",
+            description = "Enable nickname for Corrupted Hunllef",
             section = otherBosses,
             position = 130
     )
-    default boolean enableCorruptedHunleff() {
+    default boolean enableCorruptedHunllef() {
         return true;
     }
 
     @ConfigItem(
-            keyName = "corruptedHunleff",
-            name = "Corrupted Hunleff Nickname",
-            description = "Custom nickname for Corrupted Hunleff",
+            keyName = "corruptedHunllef",
+            name = "Corrupted Hunllef Nickname",
+            description = "Custom nickname for Corrupted Hunllef",
             section = otherBosses,
             position = 131
     )
-    default String corruptedHunleff() {
+    default String corruptedHunllef() {
         return "Corrupted Transparent Dog";
     }
 
