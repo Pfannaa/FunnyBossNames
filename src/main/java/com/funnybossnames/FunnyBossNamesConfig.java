@@ -1609,7 +1609,7 @@ public interface FunnyBossNamesConfig extends Config {
     }
 
     @ConfigItem(
-            keyName = "enableCrystallineHunllef",
+            keyName = "enableCrystallineHunleff",
             name = "Enable Crystalline Hunllef",
             description = "Enable nickname for Crystalline Hunllef",
             section = otherBosses,
@@ -1620,7 +1620,7 @@ public interface FunnyBossNamesConfig extends Config {
     }
 
     @ConfigItem(
-            keyName = "crystallineHunllef",
+            keyName = "crystallineHunleff",
             name = "Crystalline Hunllef Nickname",
             description = "Custom nickname for Crystalline Hunllef",
             section = otherBosses,
@@ -1631,7 +1631,7 @@ public interface FunnyBossNamesConfig extends Config {
     }
 
     @ConfigItem(
-            keyName = "enableCorruptedHunllef",
+            keyName = "enableCorruptedHunleff",
             name = "Enable Corrupted Hunllef",
             description = "Enable nickname for Corrupted Hunllef",
             section = otherBosses,
@@ -1642,7 +1642,7 @@ public interface FunnyBossNamesConfig extends Config {
     }
 
     @ConfigItem(
-            keyName = "corruptedHunllef",
+            keyName = "corruptedHunleff",
             name = "Corrupted Hunllef Nickname",
             description = "Custom nickname for Corrupted Hunllef",
             section = otherBosses,
