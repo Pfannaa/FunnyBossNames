@@ -1387,7 +1387,29 @@ public interface FunnyBossNamesConfig extends Config {
     default String corporealBeast() {
         return "Corporate tax evader";
     }
+    
+    @ConfigItem(
+            keyName = "enableBrutus",
+            name = "Enable Brutus",
+            description = "Enable nickname for Brutus",
+            section = otherBosses,
+            position = 8
+    )
+    default boolean enableBrutus() {
+        return true;
+    }
 
+    @ConfigItem(
+            keyName = "brutus",
+            name = "Brutus Nickname",
+            description = "Custom nickname for Brutus",
+            section = otherBosses,
+            position = 9
+    )
+    default String brutus() {
+        return "Mootus";
+    }    
+    
     @ConfigItem(
             keyName = "enableGiantMole",
             name = "Enable Giant Mole",
