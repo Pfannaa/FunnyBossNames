@@ -436,6 +436,28 @@ public interface FunnyBossNamesConfig extends Config {
     }
 
     @ConfigItem(
+            keyName = "enableShellbaneGryphon",
+            name = "Enable Shellbane Gryphon",
+            description = "Enable nickname for Shellbane Gryphon",
+            section = slayerBosses,
+            position = 12
+    )
+    default boolean enableShellbaneGryphon() {
+        return true;
+    }
+
+    @ConfigItem(
+            keyName = "shellbaneGryphon",
+            name = "Shellbane Gryphon Nickname",
+            description = "Custom nickname for Shellbane Gryphon",
+            section = slayerBosses,
+            position = 13
+    )
+    default String shellbaneGryphon() {
+        return "Birdy";
+    }
+    
+    @ConfigItem(
             keyName = "enableKraken",
             name = "Enable Kraken",
             description = "Enable nickname for Kraken",
