@@ -70,7 +70,9 @@ public class FunnyBossNamesPlugin extends Plugin {
         } else if (bossName.contains("Brutus")) {
             return _config.enableBrutus() ? bossName.replace("Brutus", _config.brutus()) : bossName;                
         } else if (bossName.contains("Commander Zilyana")) {
-            return _config.enableCommanderZilyana() ? bossName.replace("Commander Zilyana", _config.commanderZilyana()) : bossName;
+            return _config.enableCommanderZilyana() ? bossName.replace("Commander Zilyana", _config.commanderZilyana()) : bossName;                
+        } else if (bossName.contains("Shellbane Gryphon")) {
+            return _config.enableShellbaneGryphon() ? bossName.replace("Shellbane Gryphon", _config.shellbaneGryphon()) : bossName;                
         } else if (bossName.contains("Callisto")) {
             return _config.enableCallisto() ? bossName.replace("Callisto", _config.callisto()) : bossName;
         } else if (bossName.contains("Artio")) {
