@@ -66,7 +66,9 @@ public class FunnyBossNamesPlugin extends Plugin {
         } else if (bossName.contains("K'ril Tsutsaroth")) {
             return _config.enableKrilTsutsaroth() ? bossName.replace("K'ril Tsutsaroth", _config.krilTsutsaroth()) : bossName;
         } else if (bossName.contains("Kree'arra")) {
-            return _config.enableKreearra() ? bossName.replace("Kree'arra", _config.kreearra()) : bossName;
+            return _config.enableKreearra() ? bossName.replace("Kree'arra", _config.kreearra()) : bossName;                
+        } else if (bossName.contains("Brutus")) {
+            return _config.enableBrutus() ? bossName.replace("Brutus", _config.brutus()) : bossName;                
         } else if (bossName.contains("Commander Zilyana")) {
             return _config.enableCommanderZilyana() ? bossName.replace("Commander Zilyana", _config.commanderZilyana()) : bossName;
         } else if (bossName.contains("Callisto")) {
