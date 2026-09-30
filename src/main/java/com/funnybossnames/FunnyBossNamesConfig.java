@@ -5,11 +5,6 @@ import net.runelite.client.config.ConfigGroup;
 import net.runelite.client.config.ConfigItem;
 import net.runelite.client.config.ConfigSection;
 
-import java.lang.reflect.Array;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
 @ConfigGroup("FunnyBossNames")
 public interface FunnyBossNamesConfig extends Config {
     @ConfigSection(
@@ -677,6 +672,28 @@ public interface FunnyBossNamesConfig extends Config {
     )
     default String pestilentBloat() {
         return "Big Hobo";
+    }
+
+    @ConfigItem(
+            keyName = "enableNylocasVasilias",
+            name = "Enable Nylocas Vasilias",
+            description = "Enable nickname for Nylocas Vasilias",
+            section = raids,
+            position = 115
+    )
+    default boolean enableNylocasVasilias() {
+        return true;
+    }
+
+    @ConfigItem(
+            keyName = "nylocasVasilias",
+            name = "Nylocas Vasilias Nickname",
+            description = "Custom nickname for Nylocas Vasilias",
+            section = raids,
+            position = 116
+    )
+    default String nylocasVasilias() {
+        return "Nylocas Vaseline";
     }
 
     @ConfigItem(
@@ -2093,9 +2110,9 @@ public interface FunnyBossNamesConfig extends Config {
     }
 
     @ConfigItem(
-            keyName = "enableYama",
-            name = "Enable Yama",
-            description = "Enable nickname for Yama",
+            keyName = "enableMokha",
+            name = "Enable Mokha",
+            description = "Enable nickname for Mokha",
             section = otherBosses,
             position = 312
     )
@@ -2112,5 +2129,401 @@ public interface FunnyBossNamesConfig extends Config {
     )
     default String mokha() {
         return "Doom of Mock-ay-what-now?";
+    }
+
+    @ConfigItem(
+            keyName = "enableBloodMoon",
+            name = "Enable Blood Moon",
+            description = "Enable nickname for Blood Moon",
+            section = otherBosses,
+            position = 320
+    )
+    default boolean enableBloodMoon() {
+        return true;
+    }
+
+    @ConfigItem(
+            keyName = "bloodMoon",
+            name = "Blood Moon Nickname",
+            description = "Custom nickname for Blood Moon",
+            section = otherBosses,
+            position = 321
+    )
+    default String bloodMoon() {
+        return "Shark Week";
+    }
+
+    @ConfigItem(
+            keyName = "enableBlueMoon",
+            name = "Enable Blue Moon",
+            description = "Enable nickname for Blue Moon",
+            section = otherBosses,
+            position = 330
+    )
+    default boolean enableBlueMoon() {
+        return true;
+    }
+
+    @ConfigItem(
+            keyName = "blueMoon",
+            name = "Blue Moon Nickname",
+            description = "Custom nickname for Blue Moon",
+            section = otherBosses,
+            position = 331
+    )
+    default String blueMoon() {
+        return "Blue Balls";
+    }
+
+    @ConfigItem(
+            keyName = "enableEclipseMoon",
+            name = "Enable Eclipse Moon",
+            description = "Enable nickname for Eclipse Moon",
+            section = otherBosses,
+            position = 340
+    )
+    default boolean enableEclipseMoon() {
+        return true;
+    }
+
+    @ConfigItem(
+            keyName = "eclipseMoon",
+            name = "Eclipse Moon Nickname",
+            description = "Custom nickname for Eclipse Moon",
+            section = otherBosses,
+            position = 341
+    )
+    default String eclipseMoon() {
+        return "Full Moon (Mooning You)";
+    }
+
+    @ConfigItem(
+            keyName = "enableTheHueycoatl",
+            name = "Enable The Hueycoatl",
+            description = "Enable nickname for The Hueycoatl",
+            section = otherBosses,
+            position = 350
+    )
+    default boolean enableTheHueycoatl() {
+        return true;
+    }
+
+    @ConfigItem(
+            keyName = "theHueycoatl",
+            name = "The Hueycoatl Nickname",
+            description = "Custom nickname for The Hueycoatl",
+            section = otherBosses,
+            position = 351
+    )
+    default String theHueycoatl() {
+        return "Huey Lewis";
+    }
+
+    @ConfigItem(
+            keyName = "enableAmoxliatl",
+            name = "Enable Amoxliatl",
+            description = "Enable nickname for Amoxliatl",
+            section = otherBosses,
+            position = 360
+    )
+    default boolean enableAmoxliatl() {
+        return true;
+    }
+
+    @ConfigItem(
+            keyName = "amoxliatl",
+            name = "Amoxliatl Nickname",
+            description = "Custom nickname for Amoxliatl",
+            section = otherBosses,
+            position = 361
+    )
+    default String amoxliatl() {
+        return "Amoxicillin";
+    }
+
+    @ConfigItem(
+            keyName = "enableBrandaTheFireQueen",
+            name = "Enable Branda the Fire Queen",
+            description = "Enable nickname for Branda the Fire Queen",
+            section = otherBosses,
+            position = 370
+    )
+    default boolean enableBrandaTheFireQueen() {
+        return true;
+    }
+
+    @ConfigItem(
+            keyName = "brandaTheFireQueen",
+            name = "Branda the Fire Queen Nickname",
+            description = "Custom nickname for Branda the Fire Queen",
+            section = otherBosses,
+            position = 371
+    )
+    default String brandaTheFireQueen() {
+        return "Branda the Fire Hazard";
+    }
+
+    @ConfigItem(
+            keyName = "enableEldricTheIceKing",
+            name = "Enable Eldric the Ice King",
+            description = "Enable nickname for Eldric the Ice King",
+            section = otherBosses,
+            position = 380
+    )
+    default boolean enableEldricTheIceKing() {
+        return true;
+    }
+
+    @ConfigItem(
+            keyName = "eldricTheIceKing",
+            name = "Eldric the Ice King Nickname",
+            description = "Custom nickname for Eldric the Ice King",
+            section = otherBosses,
+            position = 381
+    )
+    default String eldricTheIceKing() {
+        return "Chill Bill";
+    }
+
+    @ConfigItem(
+            keyName = "enableMadAngel",
+            name = "Enable Mad Angel",
+            description = "Enable nickname for Mad Angel",
+            section = otherBosses,
+            position = 390
+    )
+    default boolean enableMadAngel() {
+        return true;
+    }
+
+    @ConfigItem(
+            keyName = "madAngel",
+            name = "Mad Angel Nickname",
+            description = "Custom nickname for Mad Angel",
+            section = otherBosses,
+            position = 391
+    )
+    default String madAngel() {
+        return "Mildly Annoyed Angel";
+    }
+
+    @ConfigItem(
+            keyName = "enableMaggotKing",
+            name = "Enable Maggot King",
+            description = "Enable nickname for Maggot King",
+            section = otherBosses,
+            position = 400
+    )
+    default boolean enableMaggotKing() {
+        return true;
+    }
+
+    @ConfigItem(
+            keyName = "maggotKing",
+            name = "Maggot King Nickname",
+            description = "Custom nickname for Maggot King",
+            section = otherBosses,
+            position = 401
+    )
+    default String maggotKing() {
+        return "Lord of the Flies";
+    }
+
+    @ConfigItem(
+            keyName = "enableGemstoneCrab",
+            name = "Enable Gemstone Crab",
+            description = "Enable nickname for Gemstone Crab",
+            section = otherBosses,
+            position = 410
+    )
+    default boolean enableGemstoneCrab() {
+        return true;
+    }
+
+    @ConfigItem(
+            keyName = "gemstoneCrab",
+            name = "Gemstone Crab Nickname",
+            description = "Custom nickname for Gemstone Crab",
+            section = otherBosses,
+            position = 411
+    )
+    default String gemstoneCrab() {
+        return "Crabs (the itchy kind)";
+    }
+
+    @ConfigItem(
+            keyName = "enableAhrimTheBlighted",
+            name = "Enable Ahrim the Blighted",
+            description = "Enable nickname for Ahrim the Blighted",
+            section = otherBosses,
+            position = 420
+    )
+    default boolean enableAhrimTheBlighted() {
+        return true;
+    }
+
+    @ConfigItem(
+            keyName = "ahrimTheBlighted",
+            name = "Ahrim the Blighted Nickname",
+            description = "Custom nickname for Ahrim the Blighted",
+            section = otherBosses,
+            position = 421
+    )
+    default String ahrimTheBlighted() {
+        return "Ahrim the Frightened";
+    }
+
+    @ConfigItem(
+            keyName = "enableDharokTheWretched",
+            name = "Enable Dharok the Wretched",
+            description = "Enable nickname for Dharok the Wretched",
+            section = otherBosses,
+            position = 430
+    )
+    default boolean enableDharokTheWretched() {
+        return true;
+    }
+
+    @ConfigItem(
+            keyName = "dharokTheWretched",
+            name = "Dharok the Wretched Nickname",
+            description = "Custom nickname for Dharok the Wretched",
+            section = otherBosses,
+            position = 431
+    )
+    default String dharokTheWretched() {
+        return "Dharok the Wrecked";
+    }
+
+    @ConfigItem(
+            keyName = "enableGuthanTheInfested",
+            name = "Enable Guthan the Infested",
+            description = "Enable nickname for Guthan the Infested",
+            section = otherBosses,
+            position = 440
+    )
+    default boolean enableGuthanTheInfested() {
+        return true;
+    }
+
+    @ConfigItem(
+            keyName = "guthanTheInfested",
+            name = "Guthan the Infested Nickname",
+            description = "Custom nickname for Guthan the Infested",
+            section = otherBosses,
+            position = 441
+    )
+    default String guthanTheInfested() {
+        return "Guthan the Ingested";
+    }
+
+    @ConfigItem(
+            keyName = "enableKarilTheTainted",
+            name = "Enable Karil the Tainted",
+            description = "Enable nickname for Karil the Tainted",
+            section = otherBosses,
+            position = 450
+    )
+    default boolean enableKarilTheTainted() {
+        return true;
+    }
+
+    @ConfigItem(
+            keyName = "karilTheTainted",
+            name = "Karil the Tainted Nickname",
+            description = "Custom nickname for Karil the Tainted",
+            section = otherBosses,
+            position = 451
+    )
+    default String karilTheTainted() {
+        return "Karen the Tainted";
+    }
+
+    @ConfigItem(
+            keyName = "enableToragTheCorrupted",
+            name = "Enable Torag the Corrupted",
+            description = "Enable nickname for Torag the Corrupted",
+            section = otherBosses,
+            position = 460
+    )
+    default boolean enableToragTheCorrupted() {
+        return true;
+    }
+
+    @ConfigItem(
+            keyName = "toragTheCorrupted",
+            name = "Torag the Corrupted Nickname",
+            description = "Custom nickname for Torag the Corrupted",
+            section = otherBosses,
+            position = 461
+    )
+    default String toragTheCorrupted() {
+        return "Torag the Constipated";
+    }
+
+    @ConfigItem(
+            keyName = "enableVeracTheDefiled",
+            name = "Enable Verac the Defiled",
+            description = "Enable nickname for Verac the Defiled",
+            section = otherBosses,
+            position = 470
+    )
+    default boolean enableVeracTheDefiled() {
+        return true;
+    }
+
+    @ConfigItem(
+            keyName = "veracTheDefiled",
+            name = "Verac the Defiled Nickname",
+            description = "Custom nickname for Verac the Defiled",
+            section = otherBosses,
+            position = 471
+    )
+    default String veracTheDefiled() {
+        return "Verac the Deflated";
+    }
+
+    @ConfigItem(
+            keyName = "enableTzkalZuk",
+            name = "Enable TzKal-Zuk",
+            description = "Enable nickname for TzKal-Zuk",
+            section = otherBosses,
+            position = 480
+    )
+    default boolean enableTzkalZuk() {
+        return true;
+    }
+
+    @ConfigItem(
+            keyName = "tzkalZuk",
+            name = "TzKal-Zuk Nickname",
+            description = "Custom nickname for TzKal-Zuk",
+            section = otherBosses,
+            position = 481
+    )
+    default String tzkalZuk() {
+        return "TzKal-Zucc";
+    }
+
+    @ConfigItem(
+            keyName = "enableTheMimic",
+            name = "Enable The Mimic",
+            description = "Enable nickname for The Mimic",
+            section = otherBosses,
+            position = 490
+    )
+    default boolean enableTheMimic() {
+        return true;
+    }
+
+    @ConfigItem(
+            keyName = "theMimic",
+            name = "The Mimic Nickname",
+            description = "Custom nickname for The Mimic",
+            section = otherBosses,
+            position = 491
+    )
+    default String theMimic() {
+        return "Chesticles";
     }
 }
