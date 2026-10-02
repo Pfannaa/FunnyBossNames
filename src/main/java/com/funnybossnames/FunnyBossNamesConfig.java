@@ -582,7 +582,7 @@ public interface FunnyBossNamesConfig extends Config {
             position = 11
     )
     default String chambersOfXeric() {
-        return "Cocks";
+        return "Xeric's torture chamber";
     }
 
     @ConfigItem(
@@ -626,7 +626,7 @@ public interface FunnyBossNamesConfig extends Config {
             position = 31
     )
     default String tombsOfAmascut() {
-        return "Tombs of Amascoochie";
+        return "Amascut's wine cellar";
     }
 
     // Individual raid bosses - Theatre of Blood
@@ -936,7 +936,7 @@ public interface FunnyBossNamesConfig extends Config {
             position = 271
     )
     default String vespula() {
-        return "Nectar nutter";
+        return "Nectar addict";
     }
 
     @ConfigItem(
@@ -1776,7 +1776,7 @@ public interface FunnyBossNamesConfig extends Config {
             position = 161
     )
     default String nex() {
-        return "Sex";
+        return "Nexy hexy";
     }
 
     @ConfigItem(
@@ -2172,7 +2172,7 @@ public interface FunnyBossNamesConfig extends Config {
             position = 331
     )
     default String blueMoon() {
-        return "Blue Balls";
+        return "Blue Boris";
     }
 
     @ConfigItem(
